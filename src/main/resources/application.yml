@@ -1,0 +1,20 @@
+server:
+  port:  8888
+name: ravi
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri:  https://github.com/getpradeep9/cloudconfig.git
+          username: getpradeep9
+          password: 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
+          label: master
+          skipSslValidation: true
+          force-pull: true
+          search-paths: '{application}/{profile}'
+          #searchPaths:
+          # - sbd-notification/*  # searched in sub-folders
+#           - kafka-producer/*
+#           - kafka-producer #searhes in the foler
+
