@@ -9,8 +9,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		System.out.println("came here ONE");
-		System.out.println("here_to ONE"  );
+		System.out.println("came here ONE TWO");
+		System.out.println("here_to ONE TWO"  );
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
